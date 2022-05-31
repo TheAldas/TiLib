@@ -1,8 +1,8 @@
 /*
  * TLib.h
  *
- * Requires tilib_inc_tick(void); to be put in SysTick handler
- * and systick has to be 1ms, TLib_inc_msTick(FREQ/1000) can be used to set 1ms systick
+ * Requires tilib_inc_tick(void); to be put in SysTick_Handler function
+ * and systick has to be 1ms, tilib_set_systick(SYSTEM_CORE_FREQUENCY/1000) can be used to set 1ms systick
  */
 
 #ifndef __TILIB_H_
